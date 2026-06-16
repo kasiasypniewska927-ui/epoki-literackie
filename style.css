@@ -1,0 +1,111 @@
+body
+{
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#container
+{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+#logo
+{
+    background-color: #4a6fa5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#nav
+{
+    background-color: #d9e2f3;
+    text-align: center;
+    padding: 15px;
+}
+
+#nav a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#nav a:hover
+{
+    color: #4a6fa5;
+}
+
+#main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.obrazek
+{
+    width: 220px;
+    text-align: center;
+}
+
+.obrazek img
+{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+}
+
+#content
+{
+    width: 700px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+#content h2,
+#content h3
+{
+    text-align: center;
+}
+
+#footer
+{
+    background-color: #4a6fa5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
+
+#nav
+{
+    background-color: #d9e2f3;
+    text-align: center;
+    padding: 15px;
+}
+
+/* 🔥 TO JEST NAJWAŻNIEJSZA ZMIANA */
+#nav a
+{
+    display: inline-block;
+    background-color: #4a6fa5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#nav a:hover
+{
+    background-color: #2f4f7f;
+    transform: scale(1.05);
+}
